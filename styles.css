@@ -1,20 +1,33 @@
 body {
-    .logo {
+    background-color: #f8f9fa;
+    }
+
+.logo {
         font-weight: bolder; /*Peso o grueso del texto, en este caso el texto es negrita*/
         font-size: 25px; /*Tamaño del texto*/
         color: #F61706; /*Color del texto*/
-        text-shadow: -1px -1px 10px #000, 1px 1px 10px #000, -1px 1px 10px #000, 1px -1px 10px #000; /*Sombra del texto, primer parametro crea una sombra desplazada hacia la izquierda porque el valor es negativo, segundo hacia arriba, el tercer parametro es el grosor, para rodear los cuatro lados de la caja contenedora del texto se crean 4 sombras */
+        text-shadow: -1px -1px 7px #000, 1px 1px 7px #000, -1px 1px 7px #000, 1px -1px 7px #000; /*Sombra del texto, primer parametro crea una sombra desplazada hacia la izquierda porque el valor es negativo, segundo hacia arriba, el tercer parametro es el grosor, para rodear los cuatro lados de la caja contenedora del texto se crean 4 sombras */
+        margin: 100px;
     }
-    background-color: #f8f9fa;
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00ffff;
+    box-sizing: border-box;
     }
-    h2 {
+
+h2 {
     color: #007bff;
     margin-bottom: 20px;
     }
-    .navbar {
+
+.navbar {
     margin-bottom: 20px;
     }
-    img {
+   
+img {
     border-radius: 10px;
     margin-bottom: 20px;
-}
+    }
