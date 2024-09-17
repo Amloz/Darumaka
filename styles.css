@@ -1,16 +1,20 @@
 body {
     background-color: #f8f9fa;
     }
+    
+header {
+    justify-content: space-between;
+    text-align: center;
+    }
 
 .logo {
         font-weight: bolder; /*Peso o grueso del texto, en este caso el texto es negrita*/
         font-size: 25px; /*Tamaño del texto*/
         color: #F61706; /*Color del texto*/
-        text-shadow: -1px -1px 7px #000, 1px 1px 7px #000, -1px 1px 7px #000, 1px -1px 7px #000; /*Sombra del texto, primer parametro crea una sombra desplazada hacia la izquierda porque el valor es negativo, segundo hacia arriba, el tercer parametro es el grosor, para rodear los cuatro lados de la caja contenedora del texto se crean 4 sombras */
-        margin: 100px;
+        text-shadow: -1px -1px 7px #000, 1px 1px 7px #000, -1px 1px 7px #000, 1px -1px 7px #000; /*Sombra del texto, primer parametro crea una sombra desplazada hacia la izquierda porque el valor es negativo, segundo hacia arriba, el tercer parametro es el grosor, para rodear los cuatro lados de la caja contenedora del texto se crean 4 sombras */       
     }
 
-nav {
+.container-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,13 +22,23 @@ nav {
     box-sizing: border-box;
     }
 
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00ffff;
+    box-sizing: border-box;
+    padding: 0px;
+    }
+
 h2 {
     color: #007bff;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     }
 
 .navbar {
     margin-bottom: 20px;
+    padding: 0px;
     }
    
 img {
