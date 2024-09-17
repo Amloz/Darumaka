@@ -17,20 +17,20 @@
         <div class="container-menu">
             <nav class="navbar navbar-expand-lg navbar-light bg-light" id="menu">
                 <div class="container container-fluid" >
-                    <a class="navbar-brand" href="#">Mi Sitio Web</a>
+                    <a class="navbar-brand" href="#" id="Inicio">Mi Sitio Web</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                <a class="nav-link active" aria-current="page" href="#Inicio">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Galería</a>
+                                <a class="nav-link" href="#galeria">Galería</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contacto</a>
+                                <a class="nav-link" href="#contacto">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -39,7 +39,7 @@
         </div>           
     </header>
     <main>
-        <div class="container mt-5">
+        <div class="container mt-5" id="galeria">
             <h2>Galería</h2>
             <div class="row" id="gallery">
                 <div class="col-md-4">
@@ -56,7 +56,7 @@
     </main>
     <footer>    
         <div class="container mt-5">
-            <h2>Contacto</h2>
+            <h2 id="contacto">Contacto</h2>
             <form>
                 <div class="mb-3">
                     <label for="nombre" class="form-label">Nombre</label>
@@ -71,6 +71,7 @@
                     <textarea class="form-control" id="mensaje" rows="3" required></textarea>
                 </div>
                     <button type="submit" class="btn btn-primary">Enviar</button>
+                    <br><br><br><br><br><br><br><br><br><br>
             </form>
         </div>
     </footer>
