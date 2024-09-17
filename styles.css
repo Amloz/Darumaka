@@ -1,5 +1,5 @@
 body {
-    .menu .logo {
+    .logo {
         font-weight: bolder; /*Peso o grueso del texto, en este caso el texto es negrita*/
         font-size: 25px; /*Tamaño del texto*/
         color: #F61706; /*Color del texto*/
