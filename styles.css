@@ -40,8 +40,20 @@ h2 {
     margin-bottom: 20px;
     padding: 0px;
     }
-   
+.col-md-4{
+    display: flex;
+}
 img {
     border-radius: 10px;
     margin-bottom: 20px;
-    }
+    flex: 1;
+    flex-grow: 0;
+    min-width: 350px;
+}
+
+#gallery {
+    display: flex;
+    height: 400px;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
